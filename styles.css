@@ -5,7 +5,7 @@
 
 body {
   background: #fff;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Google sans";
 }
 
 .topbar {
@@ -13,18 +13,19 @@ body {
   align-items: center;
   justify-content: flex-end;
   margin: 15px;
+  margin-top: 10px;
 }
 
 .topbar ul li {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 8px;
 }
 
 .showapps {
   width: 25px;
   height: 25px;
   cursor: pointer;
-  margin: 5px;
+  margin: 8px;
 }
 
 .profile-img {
@@ -32,10 +33,37 @@ body {
   height: 30px;
   border-radius: 50%;
   cursor: pointer;
-  margin: 5px;
+  margin: 8px;
 }
 
 .topbar ul li a {
   color: black;
   text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .logo {
+  margin-top: -10px;
+}
+
+.search {
+  margin-top: 25px;
+  width: 550px;
+  height: 45px;
+  border-radius: 25px;
+  border: 2px solid #dfe1e5;
+}
+
+.search.active {
+  margin-top: 25px;
+  width: 550px;
+  height: 45px;
+  border-radius: 25px;
+  border: 2px solid #dfe1e5;
 }
