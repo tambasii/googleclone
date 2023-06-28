@@ -7,3 +7,35 @@ body {
   background: #fff;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 15px;
+}
+
+.topbar ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.showapps {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.topbar ul li a {
+  color: black;
+  text-decoration: none;
+}
