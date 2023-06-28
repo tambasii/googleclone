@@ -5,7 +5,7 @@
 
 body {
   background: #fff;
-  font-family: "Agdasima", sans-serif;
+  font-family: monospace, sans-serif;
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
@@ -89,12 +89,12 @@ button {
   border-radius: 15px;
   cursor: pointer;
   color: black;
-  font-size: small;
+  font-size: 18px;
 }
 
 .kiswahili {
-  margin: 10px;
-  font-size: 15px;
+  font-size: 13px;
+  text-align: center;
 }
 
 .footer {
@@ -106,24 +106,28 @@ button {
   position: fixed;
   bottom: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-flow: row wrap;
   align-items: center;
+  justify-items: center;
 }
 
 .start ul li {
   display: inline-block;
-  justify-content: flex-start;
+  justify-items: flex-start;
+  margin: 0 15px;
 }
 
 .middle ul li {
   display: inline-block;
-  justify-content: center;
+  justify-items: center;
+  margin: 0 15px;
 }
 
 .end ul li {
   display: inline-block;
-  justify-content: flex-end;
+  justify-items: flex-end;
+  margin: 0 15px;
 }
 
 .start ul li a {
