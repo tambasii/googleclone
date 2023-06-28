@@ -85,12 +85,19 @@ body {
 }
 
 button {
-  width: 200px;
+  width: 150px;
   padding: 15px 0;
   text-align: center;
   margin: 10px 10px;
+  background: #f8f9fa;
   border: none;
   border-radius: 15px;
   cursor: pointer;
   color: black;
+  font-size: small;
+}
+
+.kiswahili {
+  margin: 10px;
+  font-size: smaller;
 }
