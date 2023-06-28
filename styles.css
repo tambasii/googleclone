@@ -103,3 +103,8 @@ button {
   margin: 10px;
   font-size: smaller;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
